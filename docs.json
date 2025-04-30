@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "maple",
+  "theme": "willow",
   "name": "Covert_ Help Docs",
   "colors": {
     "primary": "#213ADE",
@@ -30,14 +30,17 @@
             "group": "Get Started",
             "pages": [
               "introduction",
-              "quickstart",
-              "development"
+              "navigating-the-builder",
+              "build-your-first-app",
+              "publish-and-embed-your-app",
+              "import-from-convertcalculator"
             ]
           },
           {
             "group": "Essentials",
             "pages": [
                 "essentials/markdown",
+                "essentials/page-with-template-components",
                 {
                     "group": "Test nested group",
                     "pages": [
