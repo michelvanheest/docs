@@ -1,41 +1,63 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
-  "name": "Mint Starter Kit",
+  "theme": "willow",
+  "name": "Covert_ Help Docs",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#213ADE",
+    "light": "#5F75FF",
+    "dark": "#1129C8"
   },
+  "fonts": {
+    "heading": {
+      "family": "General Sans",
+      "weight": 600,
+      "source": "https://fonts.cdnfonts.com/s/85793/GeneralSans-Semibold.woff",
+      "format": "woff"
+    }
+  },
+  "icons": {
+    "library": "fontawesome"
+  },
+  "description": "Welcome to Convert_'s Help Center! Here you can find everything you need to build your calculator, and we give answers to common questions.",
   "favicon": "/favicon.svg",
   "navigation": {
-    "tabs": [
+    "dropdowns": [
       {
-        "tab": "Guides",
+        "dropdown": "Documentation",
+        "icon": "book-open",
         "groups": [
           {
             "group": "Get Started",
             "pages": [
               "introduction",
-              "quickstart",
-              "development"
+              "navigating-the-builder",
+              "build-your-first-app",
+              "publish-and-embed-your-app",
+              "import-from-convertcalculator"
             ]
           },
           {
             "group": "Essentials",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/settings",
-              "essentials/navigation",
-              "essentials/reusable-snippets"
+                "essentials/markdown",
+                "essentials/page-with-template-components",
+                {
+                    "group": "Test nested group",
+                    "pages": [
+                        "essentials/code",
+                        "essentials/images",
+                        "essentials/settings",
+                        "essentials/navigation",
+                        "essentials/reusable-snippets"
+                    ]
+                }
             ]
           }
         ]
       },
       {
-        "tab": "API Reference",
+        "dropdown": "API Reference",
+        "icon": "square-terminal",
         "groups": [
           {
             "group": "API Documentation",
@@ -82,21 +104,28 @@
   "navbar": {
     "links": [
       {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "label": "Contact support",
+        "href": "mailto:support@convertcalculator.co"
+      },
+      {
+        "label": "Open dashboard",
+        "href": "https://www.convertstack.app/apps"
       }
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "label": "Visit website",
+      "href": "https://www.convertcalculator.com/"
     }
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "x": "https://x.com/convertcalc",
+      "youtube": "https://www.youtube.com/channel/UC0WGV7vgmnBdDucSTFuRTSQ",
+      "linkedin": "https://www.linkedin.com/company/convertcalculator/"
     }
+  },
+  "search": {
+    "prompt": "Search anything"
   }
 }
