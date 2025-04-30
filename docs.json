@@ -1,12 +1,21 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
-  "name": "Mint Starter Kit",
+  "theme": "maple",
+  "name": "Covert_ Help Docs",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#213ADE",
+    "light": "#5F75FF",
+    "dark": "#1129C8"
   },
+  "fonts": {
+    "heading": {
+      "family": "General Sans",
+      "weight": 600,
+      "source": "https://fonts.cdnfonts.com/s/85793/GeneralSans-Semibold.woff",
+      "format": "woff"
+    }
+  },
+  "description": "Welcome to Convert_'s Help Center! Here you can find everything you need to build your calculator, and we give answers to common questions.",
   "favicon": "/favicon.svg",
   "navigation": {
     "tabs": [
@@ -82,21 +91,28 @@
   "navbar": {
     "links": [
       {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "label": "Contact support",
+        "href": "mailto:support@convertcalculator.co"
+      },
+      {
+        "label": "Open dashboard",
+        "href": "https://www.convertstack.app/apps"
       }
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "label": "Visit website",
+      "href": "https://www.convertcalculator.com/"
     }
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "x": "https://x.com/convertcalc",
+      "youtube": "https://www.youtube.com/channel/UC0WGV7vgmnBdDucSTFuRTSQ",
+      "linkedin": "https://www.linkedin.com/company/convertcalculator/"
     }
+  },
+  "search": {
+    "prompt": "Search anything"
   }
 }
